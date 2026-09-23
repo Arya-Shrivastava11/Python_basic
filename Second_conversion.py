@@ -1,0 +1,8 @@
+a=int(input("Enter second"))
+h=float(a//3600)
+r1=(a%3600)
+m=(r1//60)
+s=(r1%60)
+print(h)
+print(m)
+print(s)
