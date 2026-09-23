@@ -3,10 +3,12 @@ b=float(input(""))
 c=float(input(""))
 d=float(input(""))
 e=float(input(""))
-f=float(input("Enter Total marks"))
-p1=a*f/100
-p2=b*f/100
-p3=c*f/100
-p4=d*f/100
-p5=d*f/100
-Total_percentage=(a+b+c+d+e)*5f/100
+z=float(input("Enter Total marks"))
+p1=a*100/z
+p2=b*100/z
+p3=c*100/z
+p4=d*100/z
+p5=d*100/z
+Total_percentage=(a+b+c+d+e)*100/(5*z)
+print(f"Percentages are {p1},{p2},{p3},{p4},{p5}")
+print(f"And Total Percentage is {Total_percentage}")
