@@ -3,6 +3,10 @@ b=float(input(""))
 c=float(input(""))
 d=float(input(""))
 e=float(input(""))
-Total_percentage=100*(a+b+c+d+e)/500
-print(f"Percentage={a},{b},{c},{d},{e}")
-print(Total_percentage)
+f=float(input("Enter Total marks"))
+p1=a*f/100
+p2=b*f/100
+p3=c*f/100
+p4=d*f/100
+p5=d*f/100
+Total_percentage=(a+b+c+d+e)*5f/100
